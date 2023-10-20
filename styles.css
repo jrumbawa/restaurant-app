@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Smythe';
+  margin: 0;
+}
+
+.app {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("assets/bg-img.png");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 45px 45px 70px;
+}
+
+.header-title {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.header-subtitle {
+  font-size: 22px;
+  margin: 0;
+}
