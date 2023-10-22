@@ -6,11 +6,11 @@ function renderMenu() {
   const menuHtml = menuArray.map(menuItem => {
     return `
       <div class="menu-item">
-        <div class="menu-icon">${menuItem.emoji}</div>
+        <div class="menu-item-icon">${menuItem.emoji}</div>
         <div class="menu-details">
-          <p>${menuItem.name}</p>
-          <p>${menuItem.ingredients.join(',')}
-          <p>${menuItem.price}</p>
+          <p class="menu-item-name">${menuItem.name}</p>
+          <p class="menu-item-ingredients">${menuItem.ingredients.join(',')}
+          <p class="menu-item-price">${menuItem.price}</p>
         </div>
         <button>+</button>
       </div>
