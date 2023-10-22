@@ -30,3 +30,12 @@ body {
   font-size: 22px;
   margin: 0;
 }
+
+.menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.menu-details {
+  margin-right: auto;
+}
