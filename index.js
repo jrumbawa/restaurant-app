@@ -12,7 +12,7 @@ function renderMenu() {
           <p class="menu-item-ingredients">${menuItem.ingredients.join(',')}
           <p class="menu-item-price">${menuItem.price}</p>
         </div>
-        <button>+</button>
+        <button class="menu-item-button">+</button>
       </div>
     `
   })
